@@ -1,0 +1,46 @@
+ .form{
+    text-align: center;
+    background-color: rgb(219, 121, 8);
+    margin: 4em;
+    height: 430px;
+    width: 50%;
+    margin-left: 18em;
+    padding: 1em;
+   font-family: 'Times New Roman', Times, serif;
+   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.form .reg{
+   
+    font-size: 20px;
+    color: rgb(33, 33, 206);
+}
+
+ .form .label{
+    font-size: 20px;
+    color: rgb(85, 19, 19);
+    font-weight: 800;
+    display: flex;
+    flex-direction: row;
+    padding-left: 8em;
+ }
+.form input{
+    padding: 6px;
+    width: 50%;
+    border: 2px solid rgb(70, 42, 15);
+    padding: 7px;
+}
+
+.form button{
+    border: 2px solid blue;
+    background-color: blue;
+    color: white;
+    font-size: 16px;
+    font: 800;
+    padding: 7px;
+    width: 52%;
+    border: 5px solid blue;
+}
+
+

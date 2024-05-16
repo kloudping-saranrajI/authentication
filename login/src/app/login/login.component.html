@@ -1,0 +1,15 @@
+<form class="form" method="post" (ngSubmit)="loginValidate()">
+   <div class="log">
+    <h1> LOGIN </h1>
+   </div>
+    
+    <div>
+        <label class="label">USERNAME:</label>
+        <input type="text" name="username" [(ngModel)]="username"  required/>
+    </div><br />
+    <div>
+        <label class="label">PASSWORD:</label>
+        <input type="password" name="password" [(ngModel)]="password" required />
+    </div><br />
+        <button type="login">Login</button>
+    </form>
