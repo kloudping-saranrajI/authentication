@@ -4,12 +4,13 @@
    </div>
     
     <div>
-        <label class="label">USERNAME:</label>
-        <input type="text" name="username" [(ngModel)]="username"  required/>
+        <label class="label">EMAIL:</label>
+        <input type="email" name="username" [(ngModel)]="username"  required/>
     </div><br />
     <div>
         <label class="label">PASSWORD:</label>
         <input type="password" name="password" [(ngModel)]="password" required />
     </div><br />
         <button type="login">Login</button>
+        <div *ngIf="errorMessage">{{ errorMessage }}</div>
     </form>
